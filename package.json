@@ -1,0 +1,35 @@
+{
+  "name": "botcantik",
+  "version": "1.0.0",
+  "description": "prototype for bot sicantik. core engine using whatsappweb.js. ExpressJS is used for REST API service only. But, it might be develop with richer features in the future.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deyraka/botcantik.git"
+  },
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "automation",
+    "integration"
+  ],
+  "author": "deyraka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deyraka/botcantik/issues"
+  },
+  "homepage": "https://github.com/deyraka/botcantik#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
